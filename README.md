@@ -65,11 +65,11 @@ print("Recommended product:", prediction[0])
   - Linear regression to estimate predicted market price.  
   - Logistic regression for player qualification categories (prospect, value player, star, sale potential).  
   - Neural networks for mapping players to categories and predicting performance trends.  
-  - Integration with external APIs (weather, player load, market data) for richer evaluation.  
+  - Integration with external APIs (weather, player load, market data) for richer evaluation.  ```
 
 ---
 
-##  Challenges
+###  Challenges
 - The AI can predict which player is undervalued compared to market price, but it cannot guarantee future performance.  
 - Injuries are unpredictable: even fit players can suffer season‑ending injuries.  
 - While injury proneness can be included in evaluation, randomness and external factors remain outside the model’s control.  
@@ -86,7 +86,7 @@ print("Recommended product:", prediction[0])
 
 ---
 
-##  Acknowledgments
+## Acknowledgments
 - **Data inspiration:** [Fantasy Premier League](https://fantasy.premierleague.com/my-team#).  
 - **Libraries:** Python (NumPy, scikit‑learn).  
 - **Sources:** Open football statistics portals and transfer market databases.  
