@@ -57,6 +57,5 @@ new_user = pd.DataFrame([["dry", "sunny"]], columns=["skin_type", "climate"])
 new_user_encoded = pd.get_dummies(new_user).reindex(columns=X.columns, fill_value=0)
 
 prediction = model.predict(new_user_encoded)
-print("Recommended product:", prediction[0])
- 
-##  Data sources and AI methods
+print("Recommended product:", prediction[0])```
+### Example code (Python + pandas + scikit-learn)
